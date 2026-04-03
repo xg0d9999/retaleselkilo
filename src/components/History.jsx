@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const History = () => {
   return (
-    <section className="py-56 bg-surface-container/30">
+    <section id="tradicion" className="py-56 bg-surface-container/30 scroll-mt-24">
       <div className="max-w-[1440px] mx-auto px-8 md:px-16 grid grid-cols-1 md:grid-cols-2 gap-32 items-center">
         <motion.div 
           initial={{ opacity: 0, x: -60 }}

@@ -23,7 +23,7 @@ const Collections = () => {
   }
 
   return (
-    <section className="py-48 px-8 md:px-16 max-w-[1440px] mx-auto">
+    <section id="tejidos" className="py-48 px-8 md:px-16 max-w-[1440px] mx-auto scroll-mt-24">
       <motion.div 
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}

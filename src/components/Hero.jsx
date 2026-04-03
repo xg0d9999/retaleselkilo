@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
-    <header className="relative min-h-screen flex items-center pt-24 overflow-hidden">
+    <header id="hero" className="relative min-h-screen flex items-center pt-24 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <motion.img 
           initial={{ scale: 1.1, opacity: 0 }}
